@@ -1,0 +1,20 @@
+# Deep Learning Framework
+torch>=2.0.0
+
+# NLP Libraries
+spacy>=3.5.0
+datasets>=2.12.0
+
+# Text Metrics
+torchmetrics>=0.11.0
+
+# Numerical Computing
+numpy>=1.24.0
+
+# Progress Bar
+tqdm>=4.65.0
+
+# Additional Requirements
+# Note: After installing spacy, run:
+# python -m spacy download de_core_news_sm
+# python -m spacy download en_core_web_sm

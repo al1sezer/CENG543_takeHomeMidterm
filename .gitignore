@@ -1,0 +1,29 @@
+# Model files (too large for GitHub - use Git LFS or cloud storage)
+*.pt
+
+# Large embedding files
+.vector_cache/
+*.txt.pt
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+
+# Virtual environments
+venv/
+env/
+.env/
+
+# IDE
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*

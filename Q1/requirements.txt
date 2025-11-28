@@ -1,0 +1,46 @@
+# =============================================================================
+# Q1: Sentiment Analysis on IMDb Dataset - Requirements
+# =============================================================================
+# This file contains all dependencies needed to run midterm_q1.ipynb
+# Install with: pip install -r requirements.txt
+# =============================================================================
+
+# Core Deep Learning Framework
+torch>=2.0.0
+torchvision>=0.15.0
+
+# Hugging Face Libraries (for BERT and Dataset)
+transformers>=4.30.0
+datasets>=2.14.0
+
+# Scientific Computing
+numpy>=1.24.0
+pandas>=2.0.0
+
+# Machine Learning Utilities
+scikit-learn>=1.3.0
+
+# Visualization
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# Progress Bars
+tqdm>=4.65.0
+
+# Jupyter Notebook Support
+ipywidgets>=8.0.0
+jupyter>=1.0.0
+
+# Optional: For faster tokenization (recommended)
+tokenizers>=0.13.0
+
+# =============================================================================
+# Installation Notes:
+# =============================================================================
+# 1. For GPU support, install PyTorch with CUDA:
+#    pip install torch torchvision --index-url https://download.pytorch.org/whl/cu118
+#
+# 2. GloVe embeddings (~862MB) will be auto-downloaded on first run
+#
+# 3. IMDb dataset will be cached via Hugging Face datasets
+# =============================================================================

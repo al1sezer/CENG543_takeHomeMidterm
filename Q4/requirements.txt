@@ -1,0 +1,29 @@
+# Deep Learning Framework
+torch>=2.0.0
+
+# Transformers and NLP
+transformers>=4.30.0
+sentence-transformers>=2.2.0
+
+# Datasets
+datasets>=2.12.0
+
+# Retrieval
+rank-bm25>=0.2.2
+
+# Evaluation Metrics
+evaluate>=0.4.0
+bert-score>=0.3.13
+rouge-score>=0.1.2
+
+# TensorFlow (required for BERTScore)
+tf-keras>=2.15.0
+
+# Visualization
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# Data Processing
+pandas>=2.0.0
+numpy>=1.24.0
+tqdm>=4.65.0

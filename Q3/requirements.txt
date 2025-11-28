@@ -1,0 +1,18 @@
+# CENG543 Question 3 - RNN vs Transformer Comparison
+# Python 3.8+ recommended
+
+# Core Deep Learning
+torch>=2.0.0
+
+# Transformers & NLP
+transformers>=4.30.0
+datasets>=2.14.0
+
+# Evaluation Metrics
+sacrebleu>=2.3.0
+rouge-score>=0.1.2
+
+# Data Processing & Visualization
+numpy>=1.24.0
+matplotlib>=3.7.0
+tqdm>=4.65.0
